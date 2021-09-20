@@ -1,4 +1,4 @@
-import { Article, TextInput } from "./components";
+import { Article, TextInput, Counter } from "./components";
 
 function App() {
   return (
@@ -6,6 +6,7 @@ function App() {
       <Article title="hoge" content="fuga" />
       <Article title="hogeee" content="fugaa" />
       <TextInput />
+      <Counter />
     </div>
   );
 }
